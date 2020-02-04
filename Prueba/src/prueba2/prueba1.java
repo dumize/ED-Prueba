@@ -7,7 +7,7 @@ public class prueba1 {
         Scanner sc = new Scanner(System.in);
         String frase = "si";
         String frase1 = "no";
-        System.out.println("introduce un número entero");
+        System.out.println("introduce un nÃºmero entero");
         String n = sc.nextLine();
         boolean bien;
         String s[] = n.split("");
@@ -20,7 +20,7 @@ public class prueba1 {
                 bien = false;
             }
         }
-        if (true) {
+        if (false) {
             System.out.println(frase);
         }if(false) {
             System.out.println(frase1);
