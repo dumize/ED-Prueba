@@ -8,7 +8,7 @@ public class prueba1 {
         String frase = "si";
         String frase1 = "no";
         System.out.println("introduce un número entero");
-        String n = sc.nextLine();
+        String b = sc.nextLine();
         boolean bien;
         String s[] = n.split("");
         for (int i = 0; i < s.length; i++) {
@@ -20,7 +20,7 @@ public class prueba1 {
                 bien = false;
             }
         }
-        if (false) {
+        if (true) {
             System.out.println(frase);
         }if(false) {
             System.out.println(frase1);
